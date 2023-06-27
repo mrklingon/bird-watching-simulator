@@ -1,0 +1,61 @@
+{
+    "name": "Bird Watching Simulator",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "ColorBlock": "github:unsignedarduino/colorblock#ac7b9500e40045cf1ddd8c5b7481d11bcb317f5f",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.3.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#c8b01b9d47f85a5133c786f1c026b1f376fe4285",
+        "BetterSettings": "github:S0m3randomguy/BetterSettings#2023.4.1",
+        "Declutter": "github:S0m3randomguy/declutter#6b0626bf1bd2c7d9a70b846031b5226e48ee932a",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "screen.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.30",
+        "tag": "v1.12.30",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/33228b1cc7e1bea3f728c26a6047bdef35fd2c09",
+        "target": "1.12.30",
+        "pxt": "8.5.41",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FF2121",
+        "#FF93C4",
+        "#FF8135",
+        "#FFF609",
+        "#249CA3",
+        "#78DC52",
+        "#003FAD",
+        "#87F2FF",
+        "#262626",
+        "#A4839F",
+        "#5C406c",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
+}
